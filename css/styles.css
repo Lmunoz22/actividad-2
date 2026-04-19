@@ -1,3 +1,4 @@
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -15,7 +16,40 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1.6rem;
+  background-image:url(../img/background.jpg) ;
+  position: center;
+  background-attachment: fixed;
 }
 
 
+.contenedor{
+  width: 150rem;
+  margin: 0 auto;
+}
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.items a{
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+.tituloh a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 4.5rem;
+}
+.items{
+  display: flex;
+ 
+}
+
+.tituloh{
+  margin: 2rem
+}
+/* header listo */
